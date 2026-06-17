@@ -59,7 +59,7 @@ Beyond coding, I am heavily involved in tech communities and multimedia, blendin
 - 💼 **LinkedIn:** [linkedin.com/in/your-username](https://linkedin.com/in/your-username)
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/pacman-contribution-graph.svg" alt="pacman contribution graph" />
+  <img src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-pacman.svg" alt="pacman contribution graph" />
 </p>
 
 
