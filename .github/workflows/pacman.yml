@@ -3,20 +3,24 @@ name: Generate Pacman
 on:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch: # Biar bisa kita klik manual
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Langkah 1: Ambil kode repositori
       - uses: actions/checkout@v3
 
-      # Menggunakan generator pacman resmi yang andal
-      - uses: jasonlong/github-readme-pacman@main
+      # Langkah 2: Generate animasi menggunakan Platane/snk (Versi resmi & aktif)
+      - uses: Platane/snk@v3
         with:
           github_user_name: NikmalWahid22
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Menyimpan hasilnya otomatis ke branch pacman-output
+      # Langkah 3: Simpan hasilnya ke branch pacman-output
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
