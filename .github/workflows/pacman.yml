@@ -1,8 +1,7 @@
-name: Generate arcade animation
+name: Generate arcade 3d animation
 
 on:
   schedule:
-    # Eksekusi otomatis setiap 12 jam
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -10,28 +9,22 @@ on:
       - main
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
     steps:
-      # Langkah 1: Ambil kode repo
-      - uses: actions/checkout@v3
+      # Langkah 1: Ambil kode repo dengan versi terbaru
+      - uses: actions/checkout@v4
 
-      # Langkah 2: Bikin grafik kontribusi bertema Pacman arcade asli
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      # Langkah 2: Bikin grafik kontribusi 3D Isometric ala Retro Game
+      - uses: joshcavanagh/github-contribution-3d@main
         with:
           github_user_name: NikmalWahid22
-          games: 'pacman'
 
-      # Langkah 3: Simpan hanya file hasil pacman dari folder spesifiknya
-      - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      # Langkah 3: Simpan hasilnya otomatis ke branch pacman-output
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: pacman-output
-          build_dir: github-contribution-grid-pacman # Mengarah langsung ke folder output bawaan robotnya
+          build_dir: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
