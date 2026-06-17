@@ -27,11 +27,11 @@ jobs:
           github_user_name: NikmalWahid22
           games: 'pacman'
 
-      # Langkah 3: Simpan hasilnya ke branch pacman-output dari folder utama (.)
+      # Langkah 3: Simpan hanya file hasil pacman dari folder spesifiknya
       - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: pacman-output
-          build_dir: . # Menggunakan titik (.) agar membaca folder utama tempat file Pacman berada
+          build_dir: github-contribution-grid-pacman # Mengarah langsung ke folder output bawaan robotnya
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
