@@ -17,21 +17,21 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # Langkah 1: Checkout repositori
+      # Langkah 1: Ambil kode repo
       - uses: actions/checkout@v3
 
-      # Langkah 2: Bikin grafik kontribusi bertema Pacman asli
+      # Langkah 2: Bikin grafik kontribusi bertema Pacman arcade asli (Sudah perbaikan nama repo)
       - name: generate pacman-contribution-graph.svg
-        uses: abbozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: NikmalWahid22
           games: 'pacman'
 
-      # Langkah 3: Amankan dan simpan hasilnya ke branch pacman-output
+      # Langkah 3: Simpan hasilnya ke branch pacman-output
       - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: pacman-output
-          build_dir: . # Mengarah ke root tempat file pacman digenerate
+          build_dir: dist # Kembali diarahkan ke folder dist bawaan robot abozanona
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
