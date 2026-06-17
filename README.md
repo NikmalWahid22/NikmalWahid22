@@ -58,14 +58,9 @@ Beyond coding, I am heavily involved in tech communities and multimedia, blendin
 - 📧 **Email:** muhamadnikmalwahid@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/your-username](https://linkedin.com/in/your-username)
 
-### My Contribution Animations
-
-#### 🟡 Pacman Version
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/NikmalWahid22/metrics/blob/pacman-output/pacman-contribution-graph.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/NikmalWahid22/metrics/blob/pacman-output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://github.com/NikmalWahid22/NikmalWahid22/blob/pacman-output/pacman-contribution-graph.svg">
-</picture>
+<p align="left">
+  <img src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/pacman-contribution-graph.svg" alt="pacman contribution graph" />
+</p>
 
 
 
