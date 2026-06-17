@@ -1,8 +1,5 @@
 # Hi there, I'm Muhamad Nikmal Wahid! 
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=NikmalWahid22&label=Profile%20views&color=0e75b6&style=flat" alt="NikmalWahid22" />
-</p>
 
 I am an undergraduate **Informatics Engineering** student at **Universitas Pelita Bangsa** (currently in my 4th semester). I have a strong passion for **Web Development**, **Mobile Applications**, and **Digital Technology**. 
 
@@ -59,9 +56,8 @@ Beyond coding, I am heavily involved in tech communities and multimedia, blendin
 - 💼 **LinkedIn:** [linkedin.com/in/your-username](https://linkedin.com/in/your-username)
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-pacman.svg" alt="pacman contribution graph" />
+  <img src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-snake.svg" alt="contribution graph animation" />
 </p>
-
 
 
 
