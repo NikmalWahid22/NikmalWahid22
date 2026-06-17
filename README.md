@@ -55,9 +55,11 @@ Beyond coding, I am heavily involved in tech communities and multimedia, blendin
 - 📧 **Email:** muhamadnikmalwahid@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/your-username](https://linkedin.com/in/your-username)
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-snake.svg" alt="contribution graph animation" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-snake.svg">
+  <img alt="Retro Arcade Contribution" src="https://raw.githubusercontent.com/NikmalWahid22/NikmalWahid22/pacman-output/github-contribution-grid-snake.svg">
+</picture>
 
 
 
