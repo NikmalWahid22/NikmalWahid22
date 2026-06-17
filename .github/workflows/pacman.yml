@@ -1,34 +1,26 @@
-name: Generate Pacman Contribution Graph
+name: Generate Pacman
 
 on:
-  schedule: # Robot akan otomatis berjalan setiap 12 jam
+  schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch: # Tombol rahasia manual
+  workflow_dispatch: # Biar bisa kita klik manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Langkah 1: Checkout repositori kamu menggunakan versi terbaru (v3)
       - uses: actions/checkout@v3
 
-      # Langkah 2: Mengonversi grafik kontribusi menjadi animasi Pacman
-      - uses: lowlighter/metrics@latest
+      # Menggunakan generator pacman resmi yang andal
+      - uses: jasonlong/github-readme-pacman@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: NikmalWahid22
-          template: classic
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          config_output: svg
-          filename: pacman-contribution-graph.svg
+          github_user_name: NikmalWahid22
 
-      # Langkah 3: Menyimpan hasilnya menggunakan versi terbaru yang stabil (v3)
+      # Menyimpan hasilnya otomatis ke branch pacman-output
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: pacman-output
-          build_dir: .
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
