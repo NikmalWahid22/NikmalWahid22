@@ -1,4 +1,4 @@
-# Hi there, I'm Muhamad Nikmal Wahid! 👋
+# Hi there, I'm Muhamad Nikmal Wahid! 
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=NikmalWahid22&label=Profile%20views&color=0e75b6&style=flat" alt="NikmalWahid22" />
