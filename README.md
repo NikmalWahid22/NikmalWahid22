@@ -3,7 +3,6 @@
 
 I am an undergraduate **Informatics Engineering** student at **Universitas Pelita Bangsa** (currently in my 4th semester). I have a strong passion for **Web Development**, **Mobile Applications**, and **Digital Technology**. 
 
-Beyond coding, I am heavily involved in tech communities and multimedia, blending technical intermediate skills with creative UI/UX design and effective team collaboration.
 ---
 
 ### 🚀 About Me
