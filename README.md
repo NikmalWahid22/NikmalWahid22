@@ -1,14 +1,9 @@
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5amM1N3Z6b3Z0b3Z0b3Z0b3Z0b3Z0b3Z0b3Z0b3Z0JnNpZz1iYjFmYg/3o7qE1YN7aBOFPRw8E/giphy.gif" width="120" alt="Cosmic Black Hole"/>
-  
-  <h1>🌌 Hi there, I'm Muhamad Nikmal Wahid! 🌌</h1>
-  
-  <p><i>I am an undergraduate Informatics Engineering student at Universitas Pelita Bangsa (currently in my 4th semester). I have a strong passion for Web Development, Mobile Applications, and Digital Technology.</i></p>
-  
-  <p><i>Beyond coding, I am heavily involved in tech communities and multimedia, blending technical intermediate skills with creative UI/UX design and effective team collaboration.</i></p>
+# Hi there, I'm Muhamad Nikmal Wahid! 
 
-  <img src="https://github-readme-stats.vercel.app/api?username=NikmalWahid22&show_icons=true&theme=tokyonight&title_color=b388ff&icon_color=ff4081&text_color=e0e0e0&bg_color=0f1015" alt="Nikmal's GitHub Stats" />
-</div>
+
+I am an undergraduate **Informatics Engineering** student at **Universitas Pelita Bangsa** (currently in my 4th semester). I have a strong passion for **Web Development**, **Mobile Applications**, and **Digital Technology**. 
+
+Beyond coding, I am heavily involved in tech communities and multimedia, blending technical intermediate skills with creative UI/UX design and effective team collaboration.
 ---
 
 ### 🚀 About Me
