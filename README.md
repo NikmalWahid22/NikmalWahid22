@@ -1,7 +1,6 @@
 <div align="center">
 
 <!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=NikmalWahid22&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
